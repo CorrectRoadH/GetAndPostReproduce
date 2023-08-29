@@ -18,13 +18,13 @@ class PackageDep {
 class ParserController {
 
     @GetMapping("parse")
-    public String parse() {
+    public String getParse() {
         return "GET"
     }
 
 
     @PostMapping("parse")
-    public String parse() {
+    public String postParse() {
         return "POST";
     }
 }
